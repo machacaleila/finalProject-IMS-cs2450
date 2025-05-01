@@ -1,0 +1,23 @@
+[
+    {
+        "Id": "1",
+        "ProductId": "78",
+        "QuantityPurchased": 20,
+        "PurchaseDate": "2025-03-20T00:00:00",
+        "Supplier": "DairyFarm Inc."
+    },
+    {
+        "Id": "2",
+        "ProductId": "5",
+        "QuantityPurchased": 10,
+        "PurchaseDate": "2025-03-20T00:00:00",
+        "Supplier": "Sanpete Grains Co."
+    },
+    {
+        "Id": "3",
+        "ProductId": "2",
+        "QuantityPurchased": 80,
+        "PurchaseDate": "2025-04-26T00:00:00Z",
+        "Supplier": "FreshEggs Co."
+    }
+]

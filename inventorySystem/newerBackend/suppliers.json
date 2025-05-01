@@ -1,0 +1,48 @@
+[
+  {
+    "Id": "SUP001",
+    "Name": "Sanpete Grains Co.",
+    "ContactPerson": "Mark Thompson",
+    "Phone": "555-321-7654",
+    "Email": "mark@sanpetegrains.com",
+    "Address": "12 Wheat Rd, Ephraim, UT",
+    "ProductsSupplied": [
+      "Rice",
+      "Wheat",
+      "Oats"
+    ]
+  },
+  {
+    "Id": "SUP002",
+    "Name": "DairyFarm Inc.",
+    "ContactPerson": "Jessica Miller",
+    "Phone": "555-876-4321",
+    "Email": "jessica@dairyfarminc.com",
+    "Address": "204 Cowpath Lane, Gunnison, UT",
+    "ProductsSupplied": [
+      "Milk",
+      "Cheese",
+      "Butter"
+    ]
+  },
+  {
+    "Id": "SUP003",
+    "Name": "FreshEggs Co.",
+    "ContactPerson": "Carlos Rivera",
+    "Phone": "555-678-9012",
+    "Email": "carlos@fresheggsco.com",
+    "Address": "89 Eggshell Blvd, Centerfield, UT",
+    "ProductsSupplied": [
+      "Eggs"
+    ]
+  },
+  {
+    "Id": "SUP04",
+    "Name": "Bishwas LLC",
+    "ContactPerson": "Bishwas Thapa",
+    "Phone": "4353046040",
+    "Email": "bishwas.thapa@students.snow.edu",
+    "Address": "Suites, 150 College Ave E",
+    "ProductsSupplied": []
+  }
+]

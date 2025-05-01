@@ -1,0 +1,34 @@
+[
+    {
+        "Id": "CUST001",
+        "Name": "Alice Johnson",
+        "Phone": "555-123-4567",
+        "Email": "alice.johnson@example.com",
+        "Address": "123 Main Street, Springfield, UT",
+        "JoinDate": "2024-06-12T00:00:00"
+    },
+    {
+        "Id": "CUST002",
+        "Name": "Michael Smith",
+        "Phone": "555-987-6543",
+        "Email": "michael.smith@example.com",
+        "Address": "456 Oak Drive, Richfield, UT",
+        "JoinDate": "2023-11-28T00:00:00"
+    },
+    {
+        "Id": "CUST003",
+        "Name": "Fatima Khan",
+        "Phone": "555-234-9876",
+        "Email": "fatima.khan@example.com",
+        "Address": "789 Pine Ave, Manti, UT",
+        "JoinDate": "2025-01-04T00:00:00"
+    },
+    {
+        "Id": "CUST04",
+        "Name": "Harry Cook",
+        "Phone": "4353046040",
+        "Email": "bishwas.thapa@students.snow.edu",
+        "Address": "Suites, 150 College Ave E",
+        "JoinDate": "2025-04-20T00:00:00"
+    }
+]

@@ -1,0 +1,57 @@
+[
+    {
+        "Id": "CAT001",
+        "Name": "Dairy",
+        "Description": "Milk, cheese, yogurt, and other dairy products."
+    },
+    {
+        "Id": "CAT002",
+        "Name": "Fruits",
+        "Description": "Fresh fruits including apples, bananas, oranges, and more."
+    },
+    {
+        "Id": "CAT003",
+        "Name": "Vegetables",
+        "Description": "Fresh vegetables like tomatoes, spinach, carrots, etc."
+    },
+    {
+        "Id": "CAT004",
+        "Name": "Meat",
+        "Description": "Fresh and frozen meats such as chicken, beef, and fish."
+    },
+    {
+        "Id": "CAT005",
+        "Name": "Bakery",
+        "Description": "Bread, buns, cakes, and other baked goods."
+    },
+    {
+        "Id": "CAT006",
+        "Name": "Beverages",
+        "Description": "Soft drinks, juices, bottled water, and tea."
+    },
+    {
+        "Id": "CAT007",
+        "Name": "Grains",
+        "Description": "Rice, wheat, oats, and other cereals and grains."
+    },
+    {
+        "Id": "CAT008",
+        "Name": "Snacks",
+        "Description": "Chips, cookies, candies, and other ready-to-eat items."
+    },
+    {
+        "Id": "CAT009",
+        "Name": "Cleaning Supplies",
+        "Description": "Detergents, disinfectants, and other household cleaners."
+    },
+    {
+        "Id": "CAT010",
+        "Name": "Personal Care",
+        "Description": "Toiletries, hygiene products, and cosmetics."
+    },
+    {
+        "Id": "CAT011",
+        "Name": "Seafood",
+        "Description": "Get fresh food straight from the sea"
+    }
+]

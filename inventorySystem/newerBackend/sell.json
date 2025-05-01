@@ -1,0 +1,58 @@
+[
+    {
+        "Id": "S1",
+        "ProductId": "2",
+        "QuantitySold": 5,
+        "SellDate": "2025-03-15T00:00:00",
+        "Buyer": "Buyer1"
+    },
+    {
+        "Id": "S2",
+        "ProductId": "4",
+        "QuantitySold": 2,
+        "SellDate": "2025-03-15T00:00:00",
+        "Buyer": "Buyer2"
+    },
+    {
+        "Id": "S3",
+        "ProductId": "5",
+        "QuantitySold": 3,
+        "SellDate": "2025-03-15T00:00:00",
+        "Buyer": "Buyer3"
+    },
+    {
+        "Id": "S1",
+        "ProductId": "1",
+        "QuantitySold": 2,
+        "SellDate": "2025-04-19T00:00:00",
+        "Buyer": "Alice Johnson"
+    },
+    {
+        "Id": "80",
+        "ProductId": null,
+        "QuantitySold": 0,
+        "SellDate": "0001-01-01T00:00:00",
+        "Buyer": null
+    },
+    {
+        "Id": "S1",
+        "ProductId": "72",
+        "QuantitySold": 1,
+        "SellDate": "2025-04-26T00:00:00",
+        "Buyer": "Harry Cook"
+    },
+    {
+        "Id": "80",
+        "ProductId": null,
+        "QuantitySold": 0,
+        "SellDate": "0001-01-01T00:00:00",
+        "Buyer": null
+    },
+    {
+        "Id": "S1",
+        "ProductId": "2",
+        "QuantitySold": 10,
+        "SellDate": "2025-04-26T00:00:00",
+        "Buyer": "Alice Johnson"
+    }
+]
