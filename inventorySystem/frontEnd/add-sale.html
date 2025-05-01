@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Sale - Inventory Management System</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap" rel="stylesheet">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" />
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Js -->
+    <script type="module" src="./assets/js/ui/add-sale-ui.js"></script>
+
+</head>
+
+<body>
+
+    <div class="container-fluid main-outer">
+        <div class="row">
+            <div class="col-md-3 g-0">
+                <header class="sidebar-header py-5 px-3">
+                    <figure class="logo">
+                        <a href="/">
+                            <img src="./assets/img/IMS-Logo.png" alt="IMS Logo" class="img-fluid">
+                        </a>
+                    </figure>
+                    <nav class="left-sidebar-nav">
+                        <ul class="ps-0">
+                            <a href="./index.html">
+                                <li><i class="fa-solid fa-gauge"></i> Dashboard</li>
+                            </a>
+                            <a href="./products.html">
+                                <li><i class="fa-regular fa-file"></i> Products</li>
+                            </a>
+                            <a href="./categories.html">
+                                <li><i class="fa-solid fa-table-columns"></i> Categories</li>
+                            </a>
+                            <a href="./sales.html" class="active">
+                                <li><i class="fa-regular fa-rectangle-list"></i> Sales</li>
+                            </a>
+                            <a href="./purchases.html">
+                                <li><i class="fa-regular fa-circle-check"></i> Purchases</li>
+                            </a>
+                            <a href="./suppliers.html">
+                                <li><i class="fa-solid fa-user-plus"></i> Suppliers</li>
+                            </a>
+                            <a href="./customers.html">
+                                <li><i class="fa-solid fa-users"></i> Customers</li>
+                            </a>
+                            <a class="log-out" href="#">
+                                <li><i class="fa-solid fa-right-from-bracket"></i> Log Out</li>
+                            </a>
+
+                        </ul>
+                    </nav>
+
+                </header>
+            </div>
+            <div class="col-md-9 g-0">
+                <main>
+                    <header class="d-flex justify-content-between align-items-center top-right-header py-5">
+                        <div class="ps-5">
+                            <h2>Dashboard</h2>
+                        </div>
+                        <div class="full-screen-screen">
+                            <i id="full-screen-icon" title="Full Screen Mode" class="fa-solid fa-2x fa-maximize"></i>
+                        </div>
+                        <div class="user-account">
+                            <div class="d-flex align-items-center gap-3 pe-5">
+                                <img src="./assets/img/user_1.png" class="img-fluid" alt="">
+                                <div>
+                                    <h5 id="user-name">Bishwas Thapa</h5>
+                                    <p>Admin</p>
+                                </div>
+                            </div>
+                        </div>
+                    </header>
+                    <div class="content pt-5 px-5">
+                        <div class="title-and-breadcrumbs d-flex justify-content-between">
+                            <div class="title">
+                                Add new Sale
+                            </div>
+                            <div class="breadcrumb">
+                                Dashboard <i class="fa-solid fa-chevron-right"></i> Sales <i
+                                    class="fa-solid fa-chevron-right"></i> <span>Add New</span>
+                            </div>
+                        </div>
+                        <section class="add-sale-form bg-secondary py-5 px-3">
+                            <form action="" class="needs-validation" id="add-sales">
+                                <div class="row mb-4">
+                                    <div class="col-md-4">
+                                        <div class="form-floating">
+                                            <select id="product-name" required class="form-select" aria-label="Default select example">
+                                                <option value="" disabled selected>Select a Product</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                            <label class="" for="product-name">Product</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-floating">
+                                            <input class="form-control" type="number" name="product-quantity"
+                                                id="product-quantity" placeholder="$0.00">
+                                            <label class="" for="product-selling-price">Product Quantity</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-4">
+                                    <div class="col-md-4">
+                                        <div class="form-floating">
+                                            <input required class="form-control" type="date" name="product-sale-date"
+                                                id="product-sale-date" placeholder="$0.00">
+                                            <label class="" for="product-sale-date">Sale Date</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-floating">
+                                            <select id="product-buyer" required class="form-select" aria-label="Default select example">
+                                                <option value="" disabled selected>Select a Buyer</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                            <label class="" for="product-buyer">Supplier</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-4">
+                                    <div class="col-12">
+                                        <button class="btn btn-primary" type="submit">Add Sale</button>
+                                    </div>
+                                </div>
+
+
+                            </form>
+                        </section>
+
+                    </div>
+
+                </main>
+                <footer class="bg-primary text-center p-4">
+                    Copyright &copy; 2025 | Bishwas Thapa | All Rights Reserved
+                </footer>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

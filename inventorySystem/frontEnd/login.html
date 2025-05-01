@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Inventory Management System</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap" rel="stylesheet">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Js -->
+    <script type="module" src="./assets/js/ui/login-ui.js"></script>
+
+</head>
+
+<body>
+    <!-- Will not use any Bootstrap here -->
+    <section class="login-screen">
+        <div class="content-screen">
+            <div class="flex-container">
+                <div class="left-section">
+                    <figure class="illustration">
+                        <img src="./assets/img/IMS-Logo.png" alt="Login/Signup Screen">
+                    </figure>
+                </div>
+                <div class="right-section">
+                    <div class="right-inner">
+                        <h2>Hello Again!</h2>
+                        <p>Welcome Back! Please Login</p>
+                        <form action="" id="login-form">
+                            <div class="input-group placeholder-icon">
+                                <label for="username"><i class="fa-solid fa-user"></i> User Name or Email</label>
+                                <input required minlength="3" type="text" name="" id="username">
+                            </div>
+                            <div class="input-group placeholder-icon">
+                                <label for="password"><i class="fa-solid fa-lock "></i> Password</label>
+                                <input required minlength="3" type="password" name="" id="password">
+                                <div class="eye-icon">
+                                    <i class="fa-regular fa-eye"></i>
+                                </div>
+                            </div>
+                            <div class="validation-msg">
+                                
+                            </div>
+                            <div class="input-group">
+                                <button type="submit" class="login" id="login-btn">Login</button>
+                            </div>
+                            
+                            <div class="signup">
+                                <p>Don't have an account? <a href="#" id="sign-up-btn">Signup</a></p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+            <div class="flex-container">
+                <div class="left-section">
+                    <figure class="illustration">
+                        <img src="./assets/img/IMS-Logo.png" alt="Login/Signup Screen">
+                    </figure>
+                </div>
+                <div class="right-section">
+                    <div class="right-inner">
+                        <h2>Hello!</h2>
+                        <p>Welcome to LMS! Please Signup Below</p>
+                        <form action="" id="signup-form">
+                            <div class="input-group placeholder-icon">
+                                <label for="signup-username"><i class="fa-solid fa-user"></i> User Name or Email</label>
+                                <input required minlength="3" type="text" name="" id="signup-username">
+                            </div>
+                            <div class="input-group placeholder-icon">
+                                <label for="signup-name"><i class="fa-solid fa-user"></i> Your Full Name</label>
+                                <input required minlength="3" type="text" name="" id="signup-name">
+                            </div>
+                            <div class="input-group placeholder-icon">
+                                <label for="signup-password"><i class="fa-solid fa-lock "></i> Password</label>
+                                <input required minlength="3" type="password" name="" id="signup-password">
+                                <div class="eye-icon">
+                                    <i class="fa-regular fa-eye"></i>
+                                </div>
+                            </div>
+                            <div class="input-group placeholder-icon">
+                                <label for="signup-password"><i class="fa-solid fa-lock "></i>Confirm Password</label>
+                                <input required minlength="3" type="password" name="" id="signup-password-confirm">
+                                <div class="eye-icon">
+                                    <i class="fa-regular fa-eye"></i>
+                                </div>
+                            </div>
+                            <div class="validation-msg">
+                                
+                            </div>
+                            <div class="input-group">
+                                <button type="submit" class="login" id="signup-btn">Sign Up</button>
+                            </div>
+                            <div class="login">
+                                <p>Already have an account? <a href="#" id="log-in-btn">Login</a></p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+</body>
+
+</html>

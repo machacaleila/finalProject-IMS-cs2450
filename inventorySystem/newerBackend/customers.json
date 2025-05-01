@@ -24,11 +24,35 @@
         "JoinDate": "2025-01-04T00:00:00"
     },
     {
-        "Id": "CUST04",
+        "Id": "CUST004",
         "Name": "Harry Cook",
         "Phone": "4353046040",
         "Email": "bishwas.thapa@students.snow.edu",
         "Address": "Suites, 150 College Ave E",
         "JoinDate": "2025-04-20T00:00:00"
+    },
+    {
+        "Id": "CUST005",
+        "Name": "Bishwas Thapa",
+        "Phone": "4353046041",
+        "Email": "bishwas.thapa@students.snow.edu",
+        "Address": "Suites, 150 College Ave E",
+        "JoinDate": "2025-04-30T00:00:00"
+    },
+    {
+        "Id": "CUST006",
+        "Name": "Mark Henry",
+        "Phone": "2345029283",
+        "Email": "mark.henry@gmail.com",
+        "Address": "New York",
+        "JoinDate": "2025-04-30T00:00:00"
+    },
+    {
+        "Id": "CUST0007",
+        "Name": "Romero Angel",
+        "Phone": "23450565",
+        "Email": "mark.henry@gmail.com",
+        "Address": "Illionois",
+        "JoinDate": "2025-05-01T00:00:00"
     }
 ]
