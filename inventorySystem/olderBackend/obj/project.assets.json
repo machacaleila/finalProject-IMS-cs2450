@@ -1605,7 +1605,6 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "C:\\Users\\Snow Library Student\\Documents\\C# practice\\finalProyect\\WebApplication1\\WebApplication1.csproj",
       "MySql.Data >= 9.3.0"
     ]
   },
@@ -1616,11 +1615,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Snow Library Student\\Documents\\C# practice\\finalProyect\\inventorySystem\\inventorySystem.csproj",
+      "projectUniqueName": "C:\\Users\\Snow Library Student\\Documents\\C# practice\\finalProyect\\inventorySystem\\olderBackend\\inventorySystem.csproj",
       "projectName": "inventorySystem",
-      "projectPath": "C:\\Users\\Snow Library Student\\Documents\\C# practice\\finalProyect\\inventorySystem\\inventorySystem.csproj",
+      "projectPath": "C:\\Users\\Snow Library Student\\Documents\\C# practice\\finalProyect\\inventorySystem\\olderBackend\\inventorySystem.csproj",
       "packagesPath": "C:\\Users\\Snow Library Student\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Snow Library Student\\Documents\\C# practice\\finalProyect\\inventorySystem\\obj\\",
+      "outputPath": "C:\\Users\\Snow Library Student\\Documents\\C# practice\\finalProyect\\inventorySystem\\olderBackend\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1641,11 +1640,7 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {
-            "C:\\Users\\Snow Library Student\\Documents\\C# practice\\finalProyect\\WebApplication1\\WebApplication1.csproj": {
-              "projectPath": "C:\\Users\\Snow Library Student\\Documents\\C# practice\\finalProyect\\WebApplication1\\WebApplication1.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -1688,16 +1683,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\Snow Library Student\\Documents\\C# practice\\finalProyect\\WebApplication1\\WebApplication1.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\Snow Library Student\\Documents\\C# practice\\finalProyect\\WebApplication1\\WebApplication1.csproj",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  }
 }

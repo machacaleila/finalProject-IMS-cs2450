@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "O2l9Klin6cU=",
-  "success": false,
-  "projectFilePath": "C:\\Users\\Snow Library Student\\Documents\\C# practice\\finalProyect\\inventorySystem\\inventorySystem.csproj",
+  "dgSpecHash": "V0ELcqYemsE=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Snow Library Student\\Documents\\C# practice\\finalProyect\\inventorySystem\\olderBackend\\inventorySystem.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Snow Library Student\\.nuget\\packages\\bouncycastle.cryptography\\2.5.1\\bouncycastle.cryptography.2.5.1.nupkg.sha512",
     "C:\\Users\\Snow Library Student\\.nuget\\packages\\google.protobuf\\3.30.0\\google.protobuf.3.30.0.nupkg.sha512",
@@ -34,15 +34,5 @@
     "C:\\Users\\Snow Library Student\\.nuget\\packages\\system.windows.extensions\\8.0.0\\system.windows.extensions.8.0.0.nupkg.sha512",
     "C:\\Users\\Snow Library Student\\.nuget\\packages\\zstdsharp.port\\0.8.5\\zstdsharp.port.0.8.5.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\Snow Library Student\\Documents\\C# practice\\finalProyect\\WebApplication1\\WebApplication1.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\Snow Library Student\\Documents\\C# practice\\finalProyect\\WebApplication1\\WebApplication1.csproj",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  "logs": []
 }
